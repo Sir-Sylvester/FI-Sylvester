@@ -1,0 +1,89 @@
+1. B whoami
+
+2. C man
+
+3. B file permission
+
+4. B ls
+
+5. D current directory
+
+6. D Changes to /a/b directory
+
+7. A git add
+
+8. D Repository metadata and version history
+
+9. C The currently checked-out commit
+
+10. A Copy file1 to file2
+
+11. D Lists the contents of a directory
+
+
+Theory Part
+Git is a tool that helps developers keep track of changes in their code and collaborate easily. It records every update made to a project, showing who did what and when. This is important because it allows multiple developers to work together smoothly, even if they are in different parts of the world. Git lets you try out new ideas without messing up the main project and helps you revert to earlier versions if something goes wrong. It also makes it easy to share code and contribute to open-source projects. Overall, Git keeps everything organized and makes teamwork in software development efficient.
+
+
+ 
+1. Download and Install Git
+- You will download the installer for your operating system.
+- Run the downloaded installer.
+
+2. Set Up Git
+- Open your terminal or command prompt.
+- Configure your Git with your username and email:
+- git config --global user.name "Your Name" and git config --global user.email "your-email@example.com".
+
+3. Create a Directory(folder) to store your project
+- Open your terminal or command prompt.
+- Navigate to the directory where you want to create your project:
+- Use the command cd path/to/your/directory. 
+- for example cd Desktop (opens Desktop directory)
+- Create a new project directory and navigate into it:
+- Enter these commands to do that; mkdir my_project followed by cd my_project.
+
+
+4. Initialize Git in your project directory:
+- Enter the command git init. (This sets project ready to be tracked by Git)
+
+5. Create frontend and backend directories
+Enter the command,   mkdir frontend backend (This creates two separate directories named frontend and backend.)
+
+6. Create files in both frontend and backend directory
+- Enter the command echo > (frontend.txt)
+- Enter the command echo > (backend.txt)
+
+7. Add directories and files to Staging (Area to gather changes before committing them to repository)
+
+- Add directories and their files to the staging area:
+- Enter the command git add .  ( stages both frontend and backend directories and their files.)
+
+8. Commit Changes
+- Commit the staged changes with a message
+- enter command git commit -m "Initial commit". (just a common message used for the first commit in a new repository)
+
+9. Create a GitHub Account (if you don’t have one)
+- Open GitHub in your web browser.
+- Sign up for an account if you don’t already have one.
+
+10. Create a GitHub Repository
+- Click the "+" icon at the top right and select "New repository".
+- Enter a repository name eg. frontend_backend (Repository name can't contain '/')
+
+- Choose whether it will be public or private.
+- Click "Create repository".
+
+11. Copy the repository URL provided by GitHub (e.g., https://github.com/syvester/frontend_backend.git).
+-  Add GitHub Repository as Remote
+- Link your local repository to the GitHub repository:
+- Enter the command git remote add origin  https://github.com/sylvester/front_end.git.
+
+12. Push Changes to GitHub
+- Push your local commits to the remote repository on GitHub:
+- Enter the command git push -u origin master.
+-Make sure you are on the correct branch. The default branch name might be main instead of master depending on your Git configuration.
+
+13. Verify Push
+-Go to your GitHub repository in a web browser
+-Verify that your project files are present in the repository.
