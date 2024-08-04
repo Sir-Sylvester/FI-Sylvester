@@ -86,4 +86,4 @@ Enter the command,   mkdir frontend backend (This creates two separate directori
 
 13. Verify Push
 -Go to your GitHub repository in a web browser
--Verify that your project files are present in the repository.
+-Verify that your project directories and files are present in the repository.
